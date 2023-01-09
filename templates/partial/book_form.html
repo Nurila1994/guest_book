@@ -1,0 +1,5 @@
+{% csrf_token %}
+{% load static %}
+
+{{ form.as_p }}
+<p><input class="btn btn-success" type="submit" value="{{ button_txt }}"></p>
